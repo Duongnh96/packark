@@ -18,6 +18,8 @@ Pick a release, pick packages, get one tarball with every dependency and an `ins
 ![Debian](https://img.shields.io/badge/Debian-9%E2%80%9313-A81D33?logo=debian&logoColor=white)
 ![Oracle Linux](https://img.shields.io/badge/Oracle%20Linux-7%E2%80%9310-F80000?logo=oracle&logoColor=white)
 
+**[Live demo](https://packark.duo-ng.com/)**
+
 [Quick start](#quick-start) · [How to use](#how-to-use) · [Extra repositories](#extra-repositories) · [API](#api) · [On the airgapped machine](#on-the-airgapped-machine)
 
 </div>
