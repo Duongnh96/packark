@@ -1,0 +1,9 @@
+node_modules/
+backend/internal/api/dist/*
+!backend/internal/api/dist/.gitkeep
+/packark
+/packark.exe
+/backend/packark
+/backend/packark.exe
+/bundles/
+/backend/.testbundles/

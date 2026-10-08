@@ -1,0 +1,12 @@
+services:
+  packark:
+    image: packark:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      # packark shells out to docker to resolve deps inside the target distro's image.
+      - /var/run/docker.sock:/var/run/docker.sock
+      # Bundles survive a restart.
+      - ./bundles:/var/lib/packark
+    environment:
+      BUNDLE_DIR: /var/lib/packark
